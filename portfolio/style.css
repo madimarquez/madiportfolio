@@ -1,0 +1,27 @@
+.flexbox-container{
+	display:flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.flexbox-item {
+	width: 300px;
+	height: 300px;
+	margin:10px;
+	border: 3px solid black;
+	background: whitesmoke;
+
+}
+
+.flexbox-item-1 {
+	min-height: 100px;
+
+}
+
+.flexbox-item-2 {
+	min-height: 200px;
+}
+
+.flexbox-item-3 {
+	min-height: 300px;
+}
