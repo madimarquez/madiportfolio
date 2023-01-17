@@ -1,15 +1,22 @@
 
+p, a {
+font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
 .w3rcontainer{
-   border: 2px solid 
-#cccfdb;
+   border: 2px solid #cccfdb;
    border-radius: 3px;
+
 } 
 
 .hover-underline-animation {
   display: inline-block;
   position: relative;
   color: black;
-  font-size: 40pt;
+  font-size: 50pt;
+
 }
 
 .hover-underline-animation:after {
@@ -17,7 +24,7 @@
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 3px;
+  height: 4px;
   bottom: 0;
   left: 0;
   background-color: 
@@ -34,3 +41,10 @@ black;
 a {
   text-decoration: none;
 }
+
+div {
+margin-top: 40vh;
+margin-left:15px;
+line-height: 1.25;
+ }
+
