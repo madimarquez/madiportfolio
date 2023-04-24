@@ -4,27 +4,6 @@ font-weight: 400;
 font-style: normal;
 }
 
-.flexbox-container{
-	display:flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	flex-grow: 1;
-	padding: 20px;
-line-height: .25;
-}
-
-.flexbox-item {
-	width: 325px;
-	height: 325px;
-	margin:10px;
-	border: 3px solid black;
-	border: 3px solid white;
-}
-
-.flexbox-item:hover {
-	border: 3px solid black;
-}
-
 
 .hover-underline-animation {
   display: inline-block;

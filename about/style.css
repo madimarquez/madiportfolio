@@ -1,0 +1,74 @@
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+  font-size: 12pt;
+  font-family: acumin-pro, sans-serif;
+
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: 
+black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  font-family: acumin-pro, sans-serif;
+
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  font-family: acumin-pro, sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.under {
+	text-decoration: underline;
+	color: black;
+  font-family: acumin-pro, sans-serif;
+
+
+}
+
+.box-2{
+  width: 500px;
+  justify-content: center;
+margin: auto;
+}
+
+.box-1 {
+ width: 500px;
+  justify-content: center;
+  margin: auto;
+}
+
+
+.container {
+    display : flex;
+    flex-direction: row;
+    align-items: felx-start;
+    justify-content: flex-start;
+    align-items: stretch;
+
+}
+
+
+p {
+font-family: acumin-pro, sans-serif;
+font-style: normal;
+  width: 50%;
+  margin: 10px;
+}
